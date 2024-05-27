@@ -27,7 +27,6 @@ public class Menu {
                 case 1:
                     mostrarMenuConversiones();
                     break;
-
                 case 2:
                     mostrarHistorial();
                     break;
@@ -42,7 +41,6 @@ public class Menu {
 
     private void mostrarMenuConversiones() {
         boolean regresar = false;
-
         while (!regresar) {
             System.out.println("""
                 ********** Seleccione una opcion de conversión **********
@@ -123,13 +121,10 @@ public class Menu {
                 """);
         System.out.println("Ingrese la moneda base:");
         String monedaBase = lectura.nextLine().trim();
-
         System.out.println("Ingrese la moneda destino:");
         String monedaDestino = lectura.nextLine().trim();
-
         realizarConversion(monedaBase, monedaDestino);
     }
-
 
     private void mostrarHistorial() {
         System.out.println("********** Historial de conversiones: **********");

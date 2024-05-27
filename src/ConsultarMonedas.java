@@ -7,7 +7,6 @@ import java.net.http.HttpResponse;
 import java.util.Map;
 
 public class ConsultarMonedas {
-
     public double convertirMoneda(String monedaBase, String monedaDestino, double cantidad) {
         URI direccion = URI.create("https://v6.exchangerate-api.com/v6/aeef272a9ff725d7c2b029b6/latest/" + monedaBase);
 
