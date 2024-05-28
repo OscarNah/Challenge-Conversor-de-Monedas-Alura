@@ -5,8 +5,11 @@ Bienvenido este es el CHALLENGE de conversor de monedas del curso de JAVA Orient
 ## Sobre el challenge
 
 Para realizar este challenge se utilizo una API llamada ExchangeRate-API la cual cuenta con:
+
 🌍 Tasas de conversión de moneda para 161 monedas.
+
 🏆 Más de 10 años de tiempo de actividad y soporte excepcionales.
+
 Para poder utilizarla unicamente debes de colocar tu correo electronico para obtener tu clave gatis.
 
 ## Instalación
